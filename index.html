@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>E-Play Home</title>
-    </head>
-    <body bgcolor="#6C4949">
-        <div style="background-color:#333135; height: 20px; margin: 0px; padding: 0px;border: 0px"></div>
-        <div style="background-color:#49474B;margin: 0px;padding: 0px;height:100px">
-            <div style="height: 100%; width:50% ;float: left;" align="center">
-               <img src="images/eplay_logo.jpg" style="width: 100px; height: 100px;"/>
-            </div>
-            <div style="height:100%;width: 50%; float:right;background-color: aliceblue;align-content: center;justify-content: center;">
-                <form action="php/login.php" method="POST" style="height: 100%;width: 100%;vertical-align: 50%; background-color: blue">
-                    Email: <input type="text" name="username" placeholder="e-mail" style="margin:10px;"/>
-                    Password: <input type="password" name="password" placeholder="********" style="margin:10px;"/>
-                    <input type="submit" value="Login"/>
-                </form>
-            </div>
-        </div>
-        <div style="background-color:#333135; height: 10px; margin: 0px; padding: 0px;border: 0px"></div>
-        <div style="background-color:crimson; height: 750px; margin: 0px; padding: 0px;border: 0px">
 
+<head>
+    <title>E-Play Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/home.css"/>
+</head>
+<body bgcolor="#6C4949">
+    <div style="background-color:#333135; height: 20px; margin: 0px; padding: 0px;border: 0px"></div>
+    <div style="background-color:#49474B;margin: 0px;padding: 0px;height:100px">
+        <div style="height: 100%; width:50% ;float: left;" align="center">
+            <img src="images/logo/logo.png" style="width: 100px; height: 100px;" />
         </div>
-    </body>
+        <div style="height:100%;width: 50%; float:right;">
+            <form action="php/login.php" method="POST" style="height: 100%;width: 100%;margin-top:20px;">
+                <img src="images/icons/user_icon/user_test1.png" width="30px" height="30px" /> <input type="text"
+                    name="e-mail" placeholder="e-mail" style="margin:10px;width:250px;height: 20px;" />
+                <img src="images/icons/password_icon/password_test1.png" width="35px" height="35px" /><input
+                    type="password" name="password" placeholder="********"
+                    style="margin:10px;width:180px;height: 20px;" />
+                <input type="submit" value="Login" />
+            </form>
+        </div>
+    </div>
+    <div style="background-color:#333135; height: 10px; margin: 0px; padding: 0px;border: 0px"></div>
+    <div style="background-color:crimson; height: 650px; margin: 0px; padding: 0px;border: 0px">
+        <video autoplay loop muted>
+            <source src="videos/home_video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="screenFiller"></div>
+</body>
+
 </html>
