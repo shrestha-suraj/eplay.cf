@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Play Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/home.css" />
+</head>
+
+<body style="overflow: hidden;">
+    <div id="screenFiller">
+        <div style="height: 20%;">
+            <div style="background-color:#333135; height: 25%;"></div>
+            <div style="background-color:#49474B;height:50%">
+                <div style="height: 100%; width:50% ;float: left;">
+                    <img src="../images/logo/logo.png" style="width: 10%; height: 100%;" align="left" />
+                    <button class="nav_buttons" style="height:100%;float: left;">Home</button>
+                    <button class="nav_buttons" style="height:100%;float: left;">Todays Prize</button>
+                    <button class="nav_buttons" style="height:100%;float: left;onclick">Gamers</button>
+                    <button class="nav_buttons" style="height:100%;float: left;">About Us</button>
+                </div>
+                <div style="height:100%;width: 50%; float:right;">
+                    <form action="php/login.php" method="POST" style="height: 80%;width: 100%;">
+                        <div style="float: left; height: 100%;width:30%; margin-right: 5%;">
+                            <span class="user_text">Username/ Email</span><br />
+                            <div style="width:100%;height: 20%;"></div>
+                            <input class="login_input" type="text" name="e-mail" placeholder="e-mail" />
+                        </div>
+                        <div style="float: left; height: 100%;width:30%;margin-right: 5%;">
+                            <span class="user_text">Password</span><br />
+                            <div style="width:100%;height: 20%;"></div>
+                            <input class="login_input" type="password" name="password" placeholder="********" />
+                        </div>
+                        <div style="float: left;height: 100%;width:20%;position: relative;">
+                            <input id="login_button" type="submit" value="Login" />
+                        </div>
+                        <div style="width:20%;height: 100%;"></div>
+                    </form>
+                    <div style="height: 20%;"></div>
+                </div>
+            </div>
+            <div style="background-color:#333135; height: 25%;">
+            </div>
+        </div>
+        <div style="height:80%; background-color: aqua;">
+        </div>
+    </div>
+</body>
+
+</html>
