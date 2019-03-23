@@ -6,10 +6,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body style="overflow: hidden;">
+<body style="margin: 0">
+    <div class="background-video-wrapper">
+        <video autoplay muted id="home_video">
+            <source src="videos/home_video2_test.mp4" type="video/mp4">
+        </video>
+        <audio id="home_audio">
+            <source src="audio/home_music2.ogg" type="audio/ogg"></audio>
+    </div>
+
+    <!--This div tag holds everything except the background video..Like body of the html-->
+    <div id="body_div">
+    </div>
+    
+    <script type="text/javascript" src="js/countdown.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
     <div id="screenFiller">
         <div style="height: 15%;">
             <div style="background-color:#333135; height: 25%;"></div>
@@ -43,34 +72,23 @@
             </div>
             <div style="background-color:#333135; height: 25%;">
             </div>
-        </div>
+        </div> 
         <div style="height:85%">
-            <div style="float:left;width:75%; height: 100%;position: relative;">
+            <div style="float:left;width:100%; height: 100%;position: relative;">
                 <div style="position:absolute;height: 100%;width: 100%;overflow: hidden;">
-                    <video autoplay loop muted style="position: absolute;top:0;left:0;width: 100%;height: 100%;object-fit: cover;">
-                        <source src="videos/home_video.mp4" type="video/mp4">
+                    <video autoplay muted style="position: absolute;top:0;left:0;width: 100%;height: 100%;object-fit: cover;">
+                        <source src="videos/home_video2.mp4" type="video/mp4">
                     </video>
                 </div>
                 <p id="demo" style="color:gold;width:100%;height:20%;font-size: 300%;position: absolute;left:55%;bottom: 20%;"></p>
-                
+               
             </div>
-            <div align="center"
-                style="float:right;width:25%; height:100%;background-image: url('images/front_page/pubg_background.jpg');background-size: contain;background-size: contain;background-size:cover;background-repeat: no-repeat;">
-                <h1 id="signup_head" style="height: 8%;">Sign Up For Game</h1>
-                <form id="signup_form;height:70%;width:100%;">
-                    <input class="signup_input" type="text" name="user_name" placeholder="Name" />
-                    <input class="signup_input" type="text" name="user_id" placeholder="New Username" />
-                    <input class="signup_input" type="text" name="user_email" placeholder="Email" />
-                    <input class="signup_input" type="password" name="user_password" placeholder="New Password" />
-                    <br /><br />
-                    <input type="submit" id="signup_button" value="Sign Up" />
-                </form>
-            </div>
+           
         </div>
     </div>
     <audio id="home_audio" loop="loop">
         <source src="audio/home_music.ogg" type="audio/ogg"></audio>
-    <script type="text/javascript" src="js/countdown.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script>-->
 </body>
 
 </html>
