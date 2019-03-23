@@ -11,7 +11,7 @@
 
 <body style="overflow: hidden;">
     <div id="screenFiller">
-        <div style="height: 20%;">
+        <div style="height: 15%;">
             <div style="background-color:#333135; height: 25%;"></div>
             <div style="background-color:brown;height:50%">
                 <div style="height: 100%; width:50% ;float: left;">
@@ -44,12 +44,15 @@
             <div style="background-color:#333135; height: 25%;">
             </div>
         </div>
-        <div style="height:80%; background-color: aqua;">
-            <div style="float:left;background-color:darkred;width:75%; height: 100%;position: relative;">
+        <div style="height:85%">
+            <div style="float:left;width:75%; height: 100%;position: relative;">
+                <div style="position:absolute;height: 100%;width: 100%;overflow: hidden;">
+                    <video autoplay loop muted style="position: absolute;top:0;left:0;width: 100%;height: 100%;object-fit: cover;">
+                        <source src="videos/home_video.mp4" type="video/mp4">
+                    </video>
+                </div>
                 <p id="demo" style="color:gold;width:100%;height:20%;font-size: 300%;position: absolute;left:55%;bottom: 20%;"></p>
-                <video autoplay loop muted style="width:100%;height:100%;">
-                    <source src="videos/home_video.mp4" type="video/mp4">
-                </video>
+                
             </div>
             <div align="center"
                 style="float:right;width:25%; height:100%;background-image: url('images/front_page/pubg_background.jpg');background-size: contain;background-size: contain;background-size:cover;background-repeat: no-repeat;">
