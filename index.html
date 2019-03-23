@@ -21,8 +21,21 @@
 
     <!--This div tag holds everything except the background video..Like body of the html-->
     <div id="body_div">
+        <div class="empty_divs"></div> 
+        <div id="form_div" align="center">
+            <h1 style="background-color: #2b2525;color: white;margin:0;width:300px;height:50px;">Sign-Up</h1>
+            <form id="signup_form">
+                <input class="signup_input" type="text" name="user_name" placeholder="Name" />
+                <input class="signup_input" type="text" name="user_id" placeholder="New Username" />
+                <input class="signup_input" type="text" name="user_email" placeholder="Email" />
+                <input class="signup_input" type="password" name="user_password" placeholder="New Password" />
+                <br /><br/><br/>
+                <input type="submit" id="signup_button" value="Sign Up" />
+            </form>
+        </div>
+        <div class="empty_divs"></div>
     </div>
-    
+
     <script type="text/javascript" src="js/countdown.js"></script>
 
 
