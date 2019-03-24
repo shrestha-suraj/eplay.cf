@@ -5,7 +5,7 @@
     <title>E-Play Home</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/home.css" />-->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
@@ -21,33 +21,56 @@
 
     <!--This div tag holds everything except the background video..Like body of the html-->
     <div id="body_div">
-        <div class="empty_divs"></div> 
-        <div id="form_div" align="center">
-            <h1 style="background-color: #2b2525;color: white;margin:0;width:300px;height:50px;">Sign-Up</h1>
+        <div class="empty_divs"></div>
+        <div id="middle_div">
+            <div style="height: 100%; width: 30%;float: right;" align="center">
+                <div id="form_div" align="center>
+                    <form id="signup_form" action="home.html" method="POST">
+                        <h1  class ="signup_input" style="background-color: teal">Sign-Up</h1>
+                        <input class="signup_input" type="text" name="user_name" placeholder="Name" />
+                        <input class="signup_input" type="text" name="user_id" placeholder="New Username" />
+                        <input class="signup_input" type="text" name="user_email" placeholder="Email" />
+                        <input class="signup_input" type="password" name="user_password" placeholder="New Password" />
+                        <br /><br />
+                        <input type="submit" class="signup_button" id="signup_b"value="Sign Up" /><br/>
+                        <h2 class="signup_input" style="height:40px;margin:0;background-color: teal;padding: 0">Already a user:
+                            <button id="switch_button" onclick="loadLogin()" style="background: transparent;border: 0;color:darkblue;text-decoration: underline;font-size: 25px;">Login</button></h2>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="empty_divs">
+                <div id="logo_div">
+                        &nbsp;&nbsp;&nbsp;&nbsp;<img width="100px" height="100px" src="images/logo/logo.png"/>
+                    </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/countdown.js"></script>
+    <script type="text/javascript" src="js/signup_login.js"></script>
+
+
+
+
+
+
+    <!--
+    <div style="width:60%;height: 100%;">
+        <div style="width:70%;height: 100%; background-color: aqua;float: left;"></div>
+        <div id="form_div">
+            <h1 style="background-color: #2b2525;color: white;margin:0;width:300px;height:10%;">Sign-Up</h1>
             <form id="signup_form">
                 <input class="signup_input" type="text" name="user_name" placeholder="Name" />
                 <input class="signup_input" type="text" name="user_id" placeholder="New Username" />
                 <input class="signup_input" type="text" name="user_email" placeholder="Email" />
                 <input class="signup_input" type="password" name="user_password" placeholder="New Password" />
-                <br /><br/><br/>
+                <br /><br />
                 <input type="submit" id="signup_button" value="Sign Up" />
             </form>
         </div>
-        <div class="empty_divs"></div>
     </div>
 
-    <script type="text/javascript" src="js/countdown.js"></script>
 
-
-
-
-
-
-
-
-
-
-
+-->
 
 
 
