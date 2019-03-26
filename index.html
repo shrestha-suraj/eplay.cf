@@ -23,10 +23,25 @@
     <div id="body_div">
         <div class="empty_divs"></div>
         <div id="middle_div">
+            <div style="height: 100%;width: 20%;float: left;background-color:teal;margin-left: 2%;border:3px solid yellow;border-radius: 20px" align="center">
+                    <div id="logo_div" style="heigh:40%">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<img id="logo_img" width="100px" height="100px" src="images/logo/logo.png"/>
+                        </div>
+                <h1 id="demo" style="color: white;height: 10%;"></h1>
+                <hr style="color:honeydew"/>
+                <div style="width: 100%;height: 50%;">
+                    <div class="flip_container" style="width:80%;height: 100%;"> 
+                        <div class ="flip_card">
+                            <div class="flip_front"><img src="images/front_card.png" style="width:100%;height: 100%;"/></div>
+                            <div class="flip_back"><img src="images/back_card_prize.png" style="width:100%;height: 100%;"/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div style="height: 100%; width: 30%;float: right;" align="center">
                 <div id="form_div" align="center>
                     <form id="signup_form" action="home.html" method="POST">
-                        <h1  class ="signup_input" style="background-color: teal">Sign-Up</h1>
+                        <h1  class ="signup_input" style="background-color: teal;color: white">Sign-Up</h1>
                         <input class="signup_input" type="text" name="user_name" placeholder="Name" />
                         <input class="signup_input" type="text" name="user_id" placeholder="New Username" />
                         <input class="signup_input" type="text" name="user_email" placeholder="Email" />
@@ -40,9 +55,6 @@
             </div>
         </div>
         <div class="empty_divs">
-                <div id="logo_div">
-                        &nbsp;&nbsp;&nbsp;&nbsp;<img width="100px" height="100px" src="images/logo/logo.png"/>
-                    </div>
         </div>
     </div>
     <script type="text/javascript" src="js/countdown.js"></script>
