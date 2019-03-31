@@ -1,0 +1,33 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link type="text/css" rel="stylesheet" href="../css/home.css">
+    <script type="text/javascript" src="../js/page_handlerer.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="margin:0">
+    <div id="header">
+        <div style="width:120px;height: 80px;background-color: #49474B;float: left;" align="center">
+            <img style="width: 80px;height: 80px;"
+                src="../images/logo/logo.png" />
+        </div>
+        <button class="nav_buttons" onclick="window.location.href='home.html'">Home</button>
+        <button class="nav_buttons" onclick="window.location.href='event.html'">Event</button>
+        <button class="nav_buttons" onclick="window.location.href='players.html'">Players</button>
+        <button class="nav_buttons" onclick="window.location.href='howto.html'">How To</button>
+        <button class="nav_buttons" onclick="window.location.href='aboutus.html'">About Us</button>
+        <div id="user-name-field" style="float:right;width: 500px;height: 80px;background-color: gold;color:white">
+            <h1>Hello, Suraj Shrestha</h1>
+        </div>
+        <div id="body_div"></div>
+    </div>
+</body>
+
+</html>
