@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" type="text/css" href="css/home.css" />-->
-    <link rel="stylesheet" type="text/css" href="css/index.css" >
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
@@ -48,24 +48,7 @@
             <div style="height: 100%; width: 30%;float: right;" align="center">
                 <div id="form_div" align="center">
                     <div id="flip_form">
-                        <div id="signup_div">
-                            <form style="width: 100%;height: 90%;" action="php/authentication/signup.php" method="POST">
-                                <h1 class="signup_input" style="background-color: teal;color: white">Sign-Up</h1>
-                                <input class="signup_input" type="text" name="signup_name" placeholder="Name" />
-                                <input class="signup_input" type="text" name="signup_id" placeholder="Pubg Game Username" />
-                                <input class="signup_input" type="text" name="signup_email" placeholder="Email" />
-                                <input class="signup_input" type="password" name="signup_password"
-                                    placeholder="New Password" />
-                                <br /><br />
-                                <input type="submit" class="signup_button" value="Sign Up" /><br />
-                                <h2 class="signup_input" style="height:40px;margin:0;background-color: teal;padding: 0">
-                                    Already a user:
-                                    <button id="switch_button" onclick="flipLogin()"
-                                        style="background: transparent;border: 0;color:darkblue;text-decoration: underline;font-size: 25px;">Login</button>
-                                </h2>
-                            </form>
-                        </div>
-                        <div id="login_div" >
+                        <div id="login_div">
                             <form style="width: 100%;height: 100%;" action="php/authentication/login.php" method="POST">
                                 <h1 class="signup_input" style="background-color: teal;color: white">Login</h1>
                                 <input class="login_input" type="text" name="login_email" placeholder="Email" />
@@ -80,7 +63,24 @@
                                 </h2>
                             </form>
                         </div>
-
+                        <div id="signup_div">
+                            <form style="width: 100%;height: 90%;" action="php/authentication/signup.php" method="POST">
+                                <h1 class="signup_input" style="background-color: teal;color: white">Sign-Up</h1>
+                                <input class="signup_input" type="text" name="signup_name" placeholder="Name" />
+                                <input class="signup_input" type="text" name="signup_id"
+                                    placeholder="Pubg Game Username" />
+                                <input class="signup_input" type="text" name="signup_email" placeholder="Email" />
+                                <input class="signup_input" type="password" name="signup_password"
+                                    placeholder="New Password" />
+                                <br /><br />
+                                <input type="submit" class="signup_button" value="Sign Up" /><br />
+                                <h2 class="signup_input" style="height:40px;margin:0;background-color: teal;padding: 0">
+                                    Already a user:
+                                    <button id="switch_button" onclick="flipLogin()"
+                                        style="background: transparent;border: 0;color:darkblue;text-decoration: underline;font-size: 25px;">Login</button>
+                                </h2>
+                            </form>
+                        </div>
                     </div>
 
                 </div>

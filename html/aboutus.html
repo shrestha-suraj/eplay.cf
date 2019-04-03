@@ -1,6 +1,3 @@
-<?php
-    session_start();
-?>
 <!DOCTYPE html>
 <html>
 
@@ -14,7 +11,7 @@
 
 <body style="margin:0">
     <div id="header">
-        <div style="width:120px;height: 80px;background-color: #49474B;float: left;" align="center">
+        <div style="width:120px;height: 60px;background-color: #49474B;float: left;" align="center">
             <img style="width: 80px;height: 80px;"
                 src="../images/logo/logo.png" />
         </div>
@@ -23,10 +20,21 @@
         <button class="nav_buttons" onclick="window.location.href='players.html'">Players</button>
         <button class="nav_buttons" onclick="window.location.href='howto.html'">How To</button>
         <button class="nav_buttons" onclick="window.location.href='aboutus.html'">About Us</button>
-        <div id="user-name-field" style="float:right;width: 500px;height: 80px;background-color: gold;color:white">
+        <div id="user-name-field" style="float:right;width: 500px;height: 80px;color:white">
             <h1>Hello, Suraj Shrestha</h1>
         </div>
         <div id="body_div"></div>
+    </div>
+    <div id="rest_body" align="center">
+        <div style="width:60%;height: 100%;background-color: chartreuse">
+            <form action="aboutus.html" method="POST" style="width: 300px;height: 400px;background: fuchsia">
+                <h1>Any Suggestions</h1>
+                <input class="messege_input" type="text" name="contact_name" placeholder="Name"/>
+                <input class="messege_input" type="text" name="contact_email" placeholder="email"/>
+                <input placeholder ="Suggestions Please" class="messege_input" type="text" name="contact_message" style="height: 100px"/><br/><br/>
+                <input class="messege_button" type="submit" value="Send"/>
+            </form>
+        </div>
     </div>
 </body>
 
