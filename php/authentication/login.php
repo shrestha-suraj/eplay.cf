@@ -7,13 +7,10 @@
     $query="SELECT * FROM users WHERE email='$login_email' AND passowrd='$login_password'";
     $result=mysqli_query($db,$query);
     if(mysqli_num_rows($result)==0){ 
-        header('Location: ../../index.html');
-        echo "<script>
-                alert('Login Credentials were wrong. Please sign up if you don't have account or login again.);
-        </script>";
+        header('Location: ../../index.php');
     }
     else{
-        header('Location: ../../html/home.html');
+        header('Location: ../tabs/home.php');
     }
 
 ?>
