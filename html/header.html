@@ -1,13 +1,19 @@
 <div id="header">
-        <div style="width:120px;height: 60px;background-color: #49474B;float: left;" align="center">
-            <img style="width: 80px;height: 80px;"
-                src="../../images/logo/logo.png" />
-        </div>
-        <button class="nav_buttons" onclick="window.location.href='home.php'">Home</button>
-        <button class="nav_buttons" onclick="window.location.href='event.php'">Event</button>
-        <button class="nav_buttons" onclick="window.location.href='players.php'">Players</button>
-        <button class="nav_buttons" onclick="window.location.href='howto.php'">How To</button>
-        <button class="nav_buttons" onclick="window.location.href='aboutus.php'">About Us</button>
-        <div id="user-name-field" style="float:right;width: 500px;height: 80px;color:white">
-            <h1>Hello, Suraj Shrestha</h1>
-        </div>
+    <div style="width:300px;height: 60px;background-color: #333135;float: left;" align="center">
+        <img style="width: 100%;height: 120px;" src="../../images/logo/logo2.png" />
+    </div>
+    <button class="nav_buttons" onclick="window.location.href='home.php'">Home</button>
+    <button class="nav_buttons" onclick="window.location.href='event.php'">Event</button>
+    <button class="nav_buttons" onclick="window.location.href='players.php'">Players</button>
+    <button class="nav_buttons" onclick="window.location.href='howto.php'">How To</button>
+    <button class="nav_buttons" onclick="window.location.href='aboutus.php'">About Us</button>
+    <div id="user-name-field" style="float:right;width: 500px;height: 80px;color:white">
+        <?php
+            if ($_SESSION["user_email"]==NULL){
+                header("Location: ../../index.php");
+            }
+        ?>
+    </div>
+    
+</div>
+

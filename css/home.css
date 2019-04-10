@@ -1,0 +1,38 @@
+#slideshow_container{
+    width:90%;
+    height: 500px;
+    position: relative;
+    border: solid blue;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#slideshow_container > div {
+    position:absolute;
+    width:fit-content;
+    height:fit-content;
+    top:0;
+    left:0;
+}
+.video_container{
+    width:33%;
+    height:400px;
+    border:dotted purple;
+    margin-bottom:40px;
+}
+.video_card{
+    width:400px;
+    height: 400px;
+    background-color: black;
+    border:solid 2px green;
+    border-radius: 10px;
+}
+.each_card{
+    color:white;
+}
+button{
+    width:100px;
+    height:40px;
+    background-color: blue;
+    border:solid blue;
+    border-radius: 2px;
+    margin:0;
+}

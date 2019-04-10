@@ -29,7 +29,7 @@
                 align="center">
                 <div id="logo_div" style="heigh:40%">
                     &nbsp;&nbsp;&nbsp;&nbsp;<img id="logo_img" width="100px" height="100px"
-                        src="images/logo/logo.png" />
+                        src="images/logo/logo3.png" />
                 </div>
                 <h1 id="demo" style="color: white;height: 10%;"></h1>
                 <hr style="color:honeydew" />
