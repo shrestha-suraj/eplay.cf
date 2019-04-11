@@ -1,0 +1,28 @@
+#players_container{
+    width:100%;
+    height:max-content;
+}
+#register_game{
+    margin:0;
+    padding:3px;
+    width:400px;
+    border:solid 10px darkgreen;
+    border-radius:5px;
+    background-color:darkgreen; 
+    color:white;
+    font-family:'Arial';
+}
+#register_game:hover{
+    background-color:green;
+    border-color:green;
+}
+tr{
+    margin:0
+}
+td{
+    border:solid red;
+    margin:0;
+    height:100px;
+    width:100px;
+    background-color: black;
+}

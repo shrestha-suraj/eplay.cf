@@ -15,17 +15,12 @@
 </head>
 
 <body style="margin:0;background-image:url('../../html/bodywall.jpg');">
-    <div>
     <?php 
         include("../../html/header.html");
     ?>
-    </div>
-    <hr style="color:gold;width:100%;size:10px;margin:0" />
-    <div>
     <?php 
         include("../../html/body/home.html");
     ?>  
-    </div>
 </body>
 
 </html>
