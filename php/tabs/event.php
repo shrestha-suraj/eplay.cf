@@ -12,12 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="margin:0">
+<body style="margin:0;background-image:url('../../images/home/blackwall1.jpg'">
     <?php 
-        include("../../html/header.html")
+        include("../../html/header.html");
     ?>
-        <div id="body_div"></div>
-    </div>
+        <?php
+            include("../../html/body/event.html");
+        ?>
+        <?php 
+        include("../../html/footer.html");
+    ?>  
 </body>
 
 </html>

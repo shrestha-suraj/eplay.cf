@@ -1,0 +1,42 @@
+#event_container{
+    width:1200px;
+    height:900px;
+    margin:0;
+}
+#divider-y{
+    height: 50px;
+}
+#cards_container{
+    width:1116px;
+    height: 900px;
+}
+#first_cards_row{
+    height:350px;
+    width:950px;
+}
+#second_cards_row{
+    height:350px;
+    width:1150px;
+}
+.card_div_first{
+    width:30%;
+    height:350px;
+    float:left;
+    margin:0;
+}
+.card_div_first img{
+    width:250px;
+    height:350px;
+    margin:0;
+}
+.card_div_second{
+    width:24%;
+    height:350px;
+    float:left;
+    margin:0;
+}
+.card_div_second img{
+    width:250px;
+    height:350px;
+    margin:0;
+}

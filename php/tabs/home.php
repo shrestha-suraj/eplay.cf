@@ -14,12 +14,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body style="margin:0;background-image:url('../../html/bodywall.jpg');">
+<body style="margin:0;background-image:url('../../images/home/blackwall1.jpg');">
     <?php 
         include("../../html/header.html");
     ?>
     <?php 
         include("../../html/body/home.html");
+    ?>  
+    <?php 
+        include("../../html/footer.html");
     ?>  
 </body>
 

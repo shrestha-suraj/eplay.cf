@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="margin:0;background-image:url('../../images/players/winnertakesitall.png')">
+<body style="margin:0;background-image:url('../../images/home/blackwall1.jpg')">
     <?php 
         include("../../html/header.html")
     ?>

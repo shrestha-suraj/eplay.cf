@@ -6,15 +6,15 @@
     margin:0;
     padding:3px;
     width:400px;
-    border:solid 10px darkgreen;
+    border:solid 10px green;
     border-radius:5px;
-    background-color:darkgreen; 
+    background-color:green; 
     color:white;
     font-family:'Arial';
 }
 #register_game:hover{
-    background-color:green;
-    border-color:green;
+    background-color:lime;
+    border-color:lime;
 }
 tr{
     margin:0
@@ -24,5 +24,17 @@ td{
     margin:0;
     height:100px;
     width:100px;
-    background-color: black;
+    
+}
+#gamer_img{
+    width:100px;
+    height:100px;
+    transition: transform .2s;
+    margin:5px;
+    border:solid blue;
+}
+#gamer_img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(2);
 }

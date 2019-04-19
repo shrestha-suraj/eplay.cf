@@ -1,6 +1,3 @@
-<?php
-    session_start();
-?>
 <!DOCTYPE html>
 <html>
 
@@ -25,7 +22,7 @@
     <div id="body_div">
         <div class="empty_divs"></div>
         <div id="middle_div">
-            <div style="height: 100%;width: 20%;float: left;background-color:teal;margin-left: 2%;border:3px solid yellow;border-radius: 20px"
+            <div style="height: 100%;width: 320px;float: left;background-color:teal;margin-left: 2%;border:3px solid yellow;border-radius: 20px"
                 align="center">
                 <div id="logo_div" style="heigh:40%">
                     &nbsp;&nbsp;&nbsp;&nbsp;<img id="logo_img" width="100px" height="100px"
@@ -34,7 +31,7 @@
                 <h1 id="demo" style="color: white;height: 10%;"></h1>
                 <hr style="color:honeydew" />
                 <div style="width: 100%;height: 50%;">
-                    <div class="flip_container" style="width:80%;height: 100%;">
+                    <div class="flip_container" style="width:280px;height: 95%;">
                         <div class="flip_card">
                             <div class="flip_front"><img src="images/home_prize/front_card.png" style="width:100%;height: 100%;" />
                             </div>

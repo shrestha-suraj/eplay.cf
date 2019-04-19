@@ -33,6 +33,9 @@
         include("../../html/body/aboutus.html");
     ?>
     </div>
+    <?php 
+        include("../../html/footer.html");
+    ?>  
 </body>
 
 </html>
